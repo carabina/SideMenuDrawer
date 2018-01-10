@@ -7,13 +7,13 @@
 //
 
 import UIKit
-
+import SideMenuDrawer
 
 class ViewController: UIViewController , DrawerControllerDelegate{
     
     
     
-    var drawer = Drawer()
+    var drawer = SideMenuDrawer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,7 +47,8 @@ class ViewController: UIViewController , DrawerControllerDelegate{
         array.append(Comments)
         array.append(About)
         array.append(Settings)
-        drawer = Drawer(elements: array, controller: self)
+       
+        drawer = SideMenuDrawer(elements: array, controller: self)
         drawer.delegate = self
         drawer.show()
         

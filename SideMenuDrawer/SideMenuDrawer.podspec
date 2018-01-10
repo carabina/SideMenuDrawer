@@ -12,7 +12,7 @@
     s.social_media_url      = "http://twitter.com/sawanmind"
     s.platform              = :ios, "11.0"
     s.source                = { :git => "https://github.com/sawanmind/SideMenuDrawer.git", :tag => "#{s.version}" }
-    s.source_files          = "Drawer/**/*"
+    s.source_files          = "SideMenuDrawer/**/*"
     s.frameworks            = "UIKit", "Foundation"
 
     end

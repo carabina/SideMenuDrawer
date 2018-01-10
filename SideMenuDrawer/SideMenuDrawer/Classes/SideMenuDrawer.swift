@@ -163,7 +163,7 @@ public class SideMenuDrawer: UIView, drawerProtocolNew, UITableViewDelegate, UIT
    public let nameLabel : UILabel = {
         let textlabel = UILabel()
         textlabel.text = "Sawan Kumar"
-        textlabel.font = UIFont.systemFont(ofSize: 20, weight: UIFont.Weight.black)
+        textlabel.font = UIFont.systemFont(ofSize: 20, weight: .black)
         textlabel.translatesAutoresizingMaskIntoConstraints = false
         return textlabel
     }()
@@ -172,7 +172,7 @@ public class SideMenuDrawer: UIView, drawerProtocolNew, UITableViewDelegate, UIT
    public let subtitle : UILabel = {
         let textlabel = UILabel()
         textlabel.text = "@sawanmind"
-        textlabel.font =  UIFont.systemFont(ofSize: 16, weight: UIFont.Weight.medium)
+        textlabel.font =  UIFont.systemFont(ofSize: 16, weight: .medium)
         textlabel.translatesAutoresizingMaskIntoConstraints = false
         return textlabel
     }()
